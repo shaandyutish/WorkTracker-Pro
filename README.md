@@ -315,6 +315,4 @@ Users (1) ──────< Tasks (many)   [createdBy  → User.id]
 
 ## License
 
-This project is built for educational and demonstration purposes.
-
-© 2025 WorkTracker Pro — All rights reserved.
+This project is licensed under the MIT License — see the LICENSE file for details.
