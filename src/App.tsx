@@ -890,7 +890,7 @@ function Login({ doLogin }: { doLogin: (e: string, p: string) => { ok: boolean; 
                   <input type={show ? "text" : "password"} value={pwd} onChange={e => setPwd(e.target.value)} autoComplete="current-password"
                     className="w-full px-4 py-3 pr-12 text-sm border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-violet-500/30 focus:border-violet-400"
                     placeholder="Enter your password" />
-                  <button type="button" onClick={() => setShow(!show)} className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 text-lg">{show ? "🙈" : "👁"}</button>
+                  <button type="button" onClick={() => setShow(!show)} className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 text-lg">{show ? "⌣" : "👁"}</button>
                 </div>
               </div>
               <button type="submit" disabled={loading}
@@ -901,7 +901,6 @@ function Login({ doLogin }: { doLogin: (e: string, p: string) => { ok: boolean; 
             <div className="mt-2"></div>
           </div>
         </div>
-        <p className="text-center text-slate-500 text-xs mt-4">WorkTracker Pro © 2025 — Secure Task Management</p>
       </div>
     </div>
   );
